@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+       
+        body {
+            
+            background-color: #f7f7f7;
+            
+        }
+
+        .signup-container {
+            background-color: #fff;
+            padding: 20px;
+            margin-left: 518px;
+            margin-top: 75px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 391px;
+        }
+
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .signup-container input[type="text"],
+        .signup-container input[type="email"],
+        .signup-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .signup-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .signup-container label {
+            margin: 10px 0;
+            display: block;
+        }
+
+        .signup-container button {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .signup-container button:hover {
+            background-color: #45a049;
+        }
+
+        .signup-container p {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .signup-container a {
+            color: #594caf;
+            text-decoration: none;
+        }
+
+        .signup-container a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .signup-container {
+                width: 90%;
+                margin: 50px auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .signup-container h2 {
+                font-size: 22px;
+            }
+
+            .signup-container button {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .nav .buttons {
+            padding: 20px;
+        }
+
+        .nav .buttons a {
+            text-decoration: none;
+            font-size: 17px;
+            margin-right: 20px;
+            color: rgb(21, 32, 195)
+        }
+
+        .nav .buttons button {
+
+            border: 0px;
+            border-radius: 20px;
+            height: 40px;
+            width: 100px;
+        }
+
+        .nav .buttons .b2 {
+            margin-left: 20px;
+            background-color: red;
+            border: 0px;
+            border-radius: 20px;
+            height: 40px;
+            width: 100px;
+            color: white;
+        }
+
+        .nav .logo h1 {
+            color: rgb(11, 11, 11);
+        }
+
+        .intro {
+            margin-left: 350px;
+            margin-top: 14px;
+        }
+
+        .intro h1 {
+            color: rgb(211, 15, 15);
+            font-size: 24px;
+
+            font-family: cursive;
+        }
+
+        .intro button {
+
+            background-color: red;
+            border: 0px;
+            border-radius: 20px;
+            height: 40px;
+            width: 200px;
+            color: white;
+            font-weight: bold
+        }
+
+        .intro p {
+            /* font-family: "Dancing Script", cursive; */
+            font-optical-sizing: auto;
+
+            font-style: normal;
+            font-size: 15px;
+            /* font-weight: bold; */
+            color: #32262a;
+        }
+        @media (max-width: 768px) {
+            .intro h1 {
+                font-size: 20px;
+            }
+
+            .intro button {
+                width: 150px;
+                height: 35px;
+            }
+
+            .intro p {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+ 
+        <div class="header"></div>
+        <div class="nav">
+            <div class="logo">
+                <h1 style="font-family: Dancing Script, cursive;font-weight: bolder;">UrbanLens</h1>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="signup-container">
+        <h2>Create Your Free Account</h2>
+        <form>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+            <label for="displayname">Display Name</label>
+            <input type="text" id="displayname" name="displayname" placeholder="Enter your display name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label>
+                <input type="checkbox" name="age" required> I certify that I am 18 or older and I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+            </label>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+
+
+</body>
+</html>
