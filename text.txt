@@ -1,0 +1,119 @@
+Installing XAMPP, VS Code + Environment Setup | PHP Tutorial #1
+
+Creating Our First PHP Website | PHP Tutorial #2
+
+Web Development 101: How HTML, CSS, JavaScript & PHP Work Together | PHP Tutorial #3
+
+Php Comments & Using Php with Bootstrap | PHP Tutorial #4
+
+Php Variables | PHP Tutorial #5
+
+Rules for Creating Variables in Php | PHP Tutorial #6
+
+Data Types in Php | PHP Tutorial #7
+
+String Functions in Php | PHP Tutorial #8
+
+Operators in Php | PHP Tutorial #9
+
+If Else Conditionals in Php | PHP Tutorial #10
+
+Switch Case Statements in php | PHP Tutorial #11
+
+While Loops in php | PHP Tutorial #12
+
+For Loops in php | PHP Tutorial #13
+
+do-While Loops in php | PHP Tutorial #14
+foreach Loops in php | PHP Tutorial #15
+
+Functions in Php | PHP Tutorial #16
+
+Date Function: Handling Dates in Php | PHP Tutorial #17
+
+Associative Arrays in Php | PHP Tutorial #18
+
+Multi-Dimensional Arrays in Php | PHP Tutorial #19
+Co
+Scope, Local & Global Variables in Php | PHP Tutorial #20
+
+PHP Forms Tutorial: GET & POST Requests in php | PHP Tutorial #21
+
+Using RDBMS & SQL With php | PHP Tutorial #22
+
+phpMyAdmin Tutorial: Creating Database & Tables | PHP Tutorial #23
+
+Connecting to MySQL Database from Php Script | PHP Tutorial #24
+
+Creating a MySQL Database using php | PHP Tutorial #25
+
+Creating a Table in MySQL using php | PHP Tutorial #26
+
+Insert Data Into MySQL Using MySQLi using php | PHP Tutorial #27
+
+Creating a Bootstrap Form and Saving Data Into MySQL DataBase Using MySQLi | PHP Tutorial #28
+
+Selecting and Displaying Data From MySQL Using MySQLi in Hindi | PHP Tutorial #29
+
+Updating Records in PHP & Where Clause in Hindi | PHP Tutorial #30
+
+Deleting Records in PHP & Limit Clause in Hindi | PHP Tutorial #31
+Php CRUD Operations Tutorial Using MySQLi in Hindi - Select, Insert, Update, Delete PHP Tutorial #32
+Include and Require in PHP in Hindi | PHP Tutorial #33
+Working with Files: File I/O in PHP in Hindi | PHP Tutorial #34
+fopen(), fread() & fclose() in PHP in Hindi | PHP Tutorial #35
+fgetc(), & fgets() in PHP in Hindi | PHP Tutorial #36
+
+Writing and Appending to Files in PHP in Hindi | PHP Tutorial #37
+Setting Cookies & $_COOKIE super global in PHP in Hindi | PHP Tutorial #38
+
+PHP Sessions: $_SESSION & Starting a Session in PHP | PHP Tutorial #39
+PHP Login System Tutorial: Creating a Login + Registration System in PHP | PHP Tutorial #40
+PHP Login System Tutorial: Creating Tables and SignUp Form | PHP Tutorial #41
+PHP Login System Tutorial: Creating Login Page & Script in PHP | PHP Tutorial #42
+
+PHP Login System Tutorial: Adding UNIQUE constraint to username | PHP Tutorial #43
+PHP Login System Tutorial: Adding Logout Functionality | PHP Tutorial #44
+PHP Login System Tutorial: Password Hashing | PHP Tutorial #45
+PHP Login System Tutorial: password_hash() and password_verify() in php | PHP Tutorial #46
+PHP Project:Creating An Online Forum In php From Scratch | PHP Tutorial #47
+
+PHP Forum Project: Adding Login Modals, About & Contact Pages | PHP Tutorial #49
+PHP Forum Project: Pulling Categories From the Database | PHP Tutorial #50
+PHP Forum Project: Creating a Page For Listing Threads From A Category | PHP Tutorial #51
+PHP Forum Project: Listing Threads from Each Category | PHP Tutorial #52
+PHP Forum Project: Creating A Table To Store Forum Threads | PHP Tutorial #53
+PHP Forum Project: Creating a Page for Forum Threads & Comments | PHP Tutorial#54
+
+Creating a Form for Forum Threads & Comments | PHP Tutorial #55
+Adding Questions to Our iDiscuss Forum Database | PHP Tutorial #56
+Creating a Database to Store Comments | PHP Tutorial #57
+Adding Comments to Threads Using HTML Form | PHP Tutorial #58
+Creating Users Table and Signup Form For User Login | PHP Tutorial #59
+Creating Login Handler & Header for Logged in User | PHP Tutorial #60
+
+Creating Logout Functionality + Other Header Fixes | PHP Tutorial #61
+Restricting Posting and Commenting Activities to Logged in Users Only | PHP Tutorial #62
+Adding User Email with Comments and Posts | PHP Tutorial #63
+Saving PHP Website From a Potential XSS Attack | PHP Tutorial #64
+Displaying Header Categories Dynamically from the Database | PHP Tutorial #65
+Creating a Template for Displaying Search Results | PHP Tutorial #66
+
+Creating Logic for Pulling Search Results From the Database | PHP Tutorial #67
+Further Modifications to iDiscuss Forum Project | PHP Tutorial #68
+Hosting our PHP Website on a Server | PHP Tutorial #69
+
+Managing Multiple Virtual Private Servers for PHP Hosting | PHP Tutorial #70
+Installing Apache2 & MySQL on Ubuntu for PHP Hosting | PHP Tutorial #71
+Installing phpMyAdmin for Setting Up Database on a Remote Server | PHP Tutorial #72
+Installing Filezilla FTP Client for Transferring Files to the server | PHP Tutorial #73
+Automating Filezilla FTP Client login | PHP Tutorial #74
+Hosting Multiple php Websites on a Single 5$ Server | PHP Tutorial #75
+Introduction to Object Oriented Programming in PHP | PHP Tutorial #76
+Understanding Classes and Objects Using GTA Vice City and PubG | PHP Tutorial #77
+PHP Constructor: Understanding_construct() function in Php | PHP Tutorial #78
+
+_destruct() function in Php | PHP Tutorial #79
+Access Modifiers in Php | PHP Tutorial #80
+Inheritance in PHP: A Helpful & Illustrative Guide | PHP Tutorial #81
+Using protected Access Modifier in PHP Inheritance | PHP Tutorial #82
