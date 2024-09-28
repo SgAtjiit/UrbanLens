@@ -8,9 +8,10 @@ body {
 .container {
     max-width: 960px;
     margin: 20px auto;
-    padding: 20px;
-    background-color: rgb(243, 239, 247);
+    padding: 74px;
+       background-color: rgb(246 244 224);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 13px;
 }
 
 header {
@@ -24,6 +25,7 @@ h1 {
 ul {
     list-style-type: none;
     padding: 0;
+    margin-left: 80px;
 }
 
 li {
@@ -46,11 +48,17 @@ input[type="checkbox"] {
 
 h2 {
     color: #2c3e50;
-    border-bottom: 2px solid #e74c3c;
-    padding-bottom: 5px;
+    border: 2px solid #aab3f0;
+    padding: 16px;
+    border-radius: 21px;
     margin-bottom: 10px;
+    background-color: #e9f6f8;
 }
+
 a{
     text-decoration: none;
     color: black;
+}
+img{
+    padding : 91px;
 }
