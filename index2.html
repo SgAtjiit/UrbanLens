@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+
+        .header .logo {
+            display: flex;
+            align-items: center;
+            color: #333;
+        }
+
+        .header .logo i {
+            font-size: 28px;
+            margin-right: 10px;
+        }
+
+        .header .logo span {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .header .nav a {
+            text-decoration: none;
+        }
+
+        .header .nav button {
+            background-color: #1d1d1d;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .header .nav button:hover {
+            background-color: #1d1d1d8d;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .main-content h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .main-content p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .main-content .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .main-content .cta-buttons a button {
+            background-color: #1d1d1d;
+            padding: 12px 18px;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .main-content .cta-buttons a button:hover {
+            background-color: #1d1d1d;
+        }
+
+        .services {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .services h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .slider {
+    position: relative;
+    max-width: 100%; 
+    margin: 0 auto; 
+    overflow: hidden;
+    border-radius: 10px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.slide img {
+    width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+
+
+        .categories {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .categories h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .category-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .category-list div {
+            text-align: center;
+            background-color: #1d1d1d;
+            color: #fff;
+            border-radius: 5px;
+            padding: 15px;
+            width: 120px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .category-list div:hover {
+            transform: scale(1.05);
+        }
+
+        .category-list span {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .category-list p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+
+        .categories a button {
+            background-color: #1d1d1d;
+            padding: 12px 18px;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .categories a button:hover {
+            background-color: #1d1d1d8d;
+        }
+        .container1 {
+      max-width: 1170px;
+      margin: auto;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    ul {
+      list-style: none;
+      padding-inline-start: 0px;
+    }
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    .footer {
+    margin-top: 40px;
+    background-color: #24262b;
+    padding: 70px 0;
+    color: #ffffff;
+    }
+
+    .footer-col {
+      width: 20%;
+      padding: 0 15px;
+    }
+
+    .footer-col h4 {
+      font-size: 18px;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+    }
+
+    .footer-col h4::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 50px;
+      height: 2px;
+      background-color: #e91e63;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+      color: #bbbbbb;
+      text-decoration: none;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    .footer-col ul li a:hover {
+      color: #ffffff;
+      padding-left: 8px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 0 10px 10px 0;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      transition: all 0.5s ease;
+    }
+
+    .social-links a:hover {
+      background-color: #ffffff;
+      color: #24262b;
+    }
+    @media (max-width: 767px) {
+      .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 574px) {
+      .footer-col {
+        width: 100%;
+      }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-home"></i>
+                <span>UrbanLens</span>
+            </div>
+            <div class="nav">
+                <a href="display.php"><button>Shop</button></a>
+                <a href="upload.php"><button>Upload</button></a>
+                <a href="payment.php"><button>Payment</button></a>
+                <a href="profile.php"><button>Profile</button></a>
+               
+                <a href="chat.php"><button>Chat</button></a>
+                <a href="logout.php"><button>Logout</button></a>
+                
+                
+            </div>
+        </div>
+        <div class="main-content">
+            <h1>Monetize Your Visual Content with UrbanLens.</h1>
+            <p>Welcome to UrbanLens, the platform where you can showcase and sell your visual creations to clients looking for unique content.</p>
+            <div class="cta-buttons">
+                
+                <a href="display.php"><button>Explore</button></a>
+               
+            </div>
+        </div>
+        <div class="services">
+            <h2>Discover a Range of Services to Enhance Your Visuals.</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <img alt="Image 1" src="Images/manali.png">
+                    </div>
+                    <div class="slide">
+                        <img alt="Image 2" src="Images/camera.png">
+                    </div>
+                    <div class="slide">
+                        <img alt="Image 3" src="Images/people.png">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="categories">
+                <h2>Browse Our Categories</h2>
+                <div class="category-list">
+                    <div><span>01</span>
+                        <p>Abstract</p>
+                    </div>
+                    <div><span>02</span>
+                        <p>Street Art</p>
+                    </div>
+                    <div><span>03</span>
+                        <p>Graffiti</p>
+                    </div>
+                    <div><span>04</span>
+                        <p>Cityscape</p>
+                    </div>
+                    <div><span>05</span>
+                        <p>Nature</p>
+                    </div>
+                    <div><span>06</span>
+                        <p>Architecture</p>
+                    </div>
+                </div>
+                <a href="display.php"><button class="explore-button">Explore</button></a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container1">
+          <div class="row">
+            <div class="footer-col">
+              <div class="logo">
+                    <h4><i class="fas fa-home"></i>        <label style="padding-top: 1px;">Urban Lens</label></h4>
+                </div>
+              <ul>
+              <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>           
+                <li><a href="#">payment options</a></li>
+                <li><a href="#">our services</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>shop</h4>
+              <ul>
+                <li><a href="#">graffiti</a></li>
+                <li><a href="#">abstract</a></li>
+                <li><a href="#">nature</a></li>
+                <li><a href="#">street art</a></li>
+                <li><a href="#">artitecture</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelector('.slides');
+        const totalSlides = document.querySelectorAll('.slide').length;
+
+        function showSlide(index) {
+            const offset = -index * 100; 
+            slides.style.transform = `translateX(${offset}%)`;
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            showSlide(currentIndex);
+        }
+
+        setInterval(nextSlide, 3000); 
+    </script>
+</body>
+
+</html>
